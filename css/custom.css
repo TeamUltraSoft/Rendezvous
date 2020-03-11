@@ -135,7 +135,6 @@ a{
 
     .contact {
         top: 146vh;
-
     }
 
     .about {
@@ -148,6 +147,7 @@ a{
 
     .about .text {
         text-align: start;
+        padding-right: 15px;
     }
 
 }
