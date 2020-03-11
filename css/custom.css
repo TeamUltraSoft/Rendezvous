@@ -1,0 +1,153 @@
+html {
+    width: 100%;
+    font-family: 'Oxanium', cursive;
+}
+
+body {
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    margin: 8px;
+}
+
+.black {
+    background-color: #434343;
+    background: linear-gradient(150deg,#000000,#434343);
+    color: #fff;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+    box-sizing: border-box;
+    padding: 48px 40px 32px;
+    overflow: hidden;
+    -webkit-transform: skewY(-10deg);
+    transform: skewY(-10deg);
+    -webkit-transform-origin: 100%;
+    transform-origin: 0%;
+    box-shadow: 0px 5px 30px 0px #464646;
+}
+
+.main .h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    -webkit-transform: skewY(10deg);
+    transform: skewY(10deg);
+}
+
+.main .h3 {
+    font-size: 16px;
+    color: rgb(179, 179, 179);
+    -webkit-transform: skewY(10deg);
+    transform: skewY(10deg);
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    width: 100%;
+    height: 55vh;
+    padding: 0px 40px 0px 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    top: 90vh;
+}
+
+.about .h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.about .p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.about .text {
+    text-align: end;
+}
+
+.contact {
+    top: 125vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    height: 55vh;
+    box-sizing: border-box;
+    padding: 48px 40px 32px;
+    overflow: hidden;
+    -webkit-transform: skewY(10deg);
+    transform: skewY(10deg);
+    -webkit-transform-origin: 100%;
+    transform-origin: 0%;
+    box-shadow: 0px -5px 30px 0px #464646;
+}
+
+.contact .h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    -webkit-transform: skewY(-10deg);
+    transform: skewY(-10deg);
+}
+
+.contact .icon-set {
+    font-size: 30px;
+    -webkit-transform: skewY(-10deg);
+    transform: skewY(-10deg);
+}
+
+.footer {
+    top: 217vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    position: absolute;
+    padding: 0px 0px 0px 40px;
+    width: 100%;
+    height: 10vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000000,#434343);
+    box-shadow: 0px -5px 30px 0px #434343;
+}
+
+.footer .c-text {
+    font-size: 15px;
+}
+
+.footer .creator {
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 425px) {
+
+    .contact {
+        top: 146vh;
+
+    }
+
+    .about {
+        padding: 0px 0px 0px 40px;  
+    }
+
+    .about .h2 {
+        padding: 0px 40px 0px 0px;
+    }
+
+    .about .text {
+        text-align: start;
+    }
+
+}
