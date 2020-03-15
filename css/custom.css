@@ -1,7 +1,7 @@
 html {
     width: 100%;
     height: 100%;
-    font-family: 'Oxanium', cursive;
+    font-family: 'Roboto', sans-serif;
     background: linear-gradient(to right, #434343, #000000);  
     color: #fff;
 }
@@ -67,7 +67,7 @@ a{
 
 .about .h2 {
     font-size: 24px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .about .p {
@@ -135,11 +135,13 @@ a{
 @media only screen and (max-width: 425px) {
 
     .contact {
-        top: 146vh;
+        top: 156vh;
+        height: 45vh;     
     }
 
     .about {
-        padding: 0px 0px 0px 40px;  
+        padding: 0px 0px 0px 40px;
+        top: 100vh;  
     }
 
     .about .h2 {
